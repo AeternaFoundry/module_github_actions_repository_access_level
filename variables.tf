@@ -16,7 +16,7 @@ EOT
         contains(["none", "user", "organization", "enterprise"], v.access_level)
       )
     ])
-    error_message = "must be one of: none, user, organization, enterprise"
+    error_message = "must be one of: \"none\", \"user\", \"organization\", \"enterprise\""
   }
   validation {
     condition = alltrue([
